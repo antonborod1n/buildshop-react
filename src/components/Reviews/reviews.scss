@@ -1,0 +1,60 @@
+.reviews {
+    background: #F6F6F6;
+    margin-bottom: 80px;
+    padding: 80px 0;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        border: 1px solid #E8E9EA;
+        padding: 24px;
+        max-width: 376px;
+        min-height: 365px;
+
+        &-box {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-bottom: 12px;
+
+            &::after {
+                /*  content: url(../images/taced.svg); */
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+
+    &__user-name {
+        /* @extend %manrope-700; */
+        margin-left: 12px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 136%;
+        color: #2F323A;
+    }
+
+    &__content {
+        flex: 1;
+        /* @extend %manrope-400; */
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #2F323A;
+    }
+
+    &__data {
+        /* @extend %manrope-500; */
+        font-size: 15px;
+        line-height: 145%;
+        color: #8B8D92;
+    }
+}

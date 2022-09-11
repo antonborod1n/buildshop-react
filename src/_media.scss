@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    .popular__content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .favorite-product__inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .stock__item {
+        width: 100%;
+    }
+
+    .favorite-product__item {
+        width: 100%;
+    }
+
+    .reviews__inner {
+        flex-wrap: wrap;
+    }
+
+    .popular__item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 568px) {}
+
+@media (max-width: 450px) {}
+
+@media (max-width: 350px) {}

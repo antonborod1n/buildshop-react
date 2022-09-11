@@ -1,0 +1,20 @@
+.about {
+    padding-bottom: 80px;
+
+    &__inner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 200px;
+        min-height: 456px;
+        border-radius: 5px;
+    }
+
+    &__text {
+        max-width: 570px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #2F323A;
+        margin-bottom: 15px;
+    }
+}

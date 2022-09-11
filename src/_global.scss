@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    @extend %manrope-400;
+    font-size: 15px;
+    line-height: 145%;
+    display: flex;
+    flex-direction: column;
+    color: $text;
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.title {
+    @extend %manrope-600;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 130%;
+    color: #2F323A;
+    margin-bottom: 20px;
+}
+
+.top-btn {
+    @extend %manrope-500;
+    padding: 12px 48px 12px 24px;
+    gap: 8px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D3;
+    position: relative;
+    font-size: 18px;
+    line-height: 136%;
+    color: #171B24;
+
+    &::after {
+        content: url(../public/images/icons/arrows-right.svg);
+        position: absolute;
+        top: 13px;
+        right: 10px;
+    }
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 246px;
+    height: 48px;
+    background-color: $accent;
+    @extend %manrope-500;
+    font-size: 18px;
+    line-height: 25px;
+    color: $btn;
+    cursor: pointer;
+}
+
+@keyframes benefits-deg {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(25deg);
+    }
+}
+
+.img__scale {
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

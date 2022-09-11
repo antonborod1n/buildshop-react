@@ -1,0 +1,66 @@
+/* COLOR */
+$accent: #FBE303;
+$text: #2F323A;
+$btn: #171B24;
+$light: #8B8D92;
+$footer: #E8E9EA;
+
+/* FONTS */
+%inter-700 {
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+}
+
+%inter-600 {
+    font-family: 'Inter-SemiBold';
+    font-weight: 600;
+}
+
+%inter-500 {
+    font-family: 'Inter-Medium';
+    font-weight: 500;
+}
+
+%inter-400 {
+    font-family: 'Inter-Regular';
+    font-weight: 400;
+}
+
+%manrope-700 {
+    font-family: 'Manrope-Bold';
+    font-weight: 700;
+}
+
+%manrope-600 {
+    font-family: 'Manrope-SemiBold';
+    font-weight: 600;
+}
+
+%manrope-500 {
+    font-family: 'Manrope-Medium';
+    font-weight: 500;
+}
+
+%manrope-400 {
+    font-family: 'Manrope-Regular';
+    font-weight: 400;
+}
+
+/* BUTTON */
+%btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 246px;
+    height: 48px;
+    background-color: $accent;
+    @extend %manrope-500;
+    font-size: 18px;
+    line-height: 25px;
+    color: $btn;
+    cursor: pointer;
+}

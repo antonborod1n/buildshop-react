@@ -1,0 +1,42 @@
+.banner {
+    padding: 40px 0 80px;
+
+    &__inner {
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 420px;
+        width: 100%;
+    }
+
+    &__box {
+        padding: 40px 0 0 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 450px;
+        height: 360px;
+    }
+
+    &__title {
+        /* @extend %manrope-700; */
+        font-size: 48px;
+        line-height: 120%;
+        color: #171B24;
+        margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        /* @extend %manrope-400; */
+        font-size: 20px;
+        line-height: 140%;
+        color: #454950;
+        margin-bottom: 50px;
+    }
+
+    &__link {
+        width: 147px;
+        /* @extend %btn; */
+    }
+}
