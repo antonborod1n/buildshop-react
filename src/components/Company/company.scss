@@ -1,0 +1,25 @@
+.company__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.company__item-btn {
+    margin-bottom: 8px;
+    margin-right: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D3;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: all .3s;
+
+    &:hover {
+        border: 1px solid #FBE303;
+    }
+
+    &--active {
+        transition: all .3s;
+        background-color: #FBE303;
+        border: 1px solid #FBE303;
+    }
+}

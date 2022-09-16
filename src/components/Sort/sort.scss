@@ -1,0 +1,28 @@
+.catalog__filter {
+    font-family: 'Manrope-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #dbc606;
+}
+
+.catalog__filter-btn {
+    font-family: 'Manrope-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8B8D92;
+    transition: all .3s;
+    cursor: pointer;
+
+    &:hover {
+        transition: all .3s;
+        color: #171B24;
+    }
+
+    &--active {
+        color: #171B24;
+    }
+}
