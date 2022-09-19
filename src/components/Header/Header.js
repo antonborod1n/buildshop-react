@@ -1,4 +1,5 @@
 import './header.scss'
+import { Link } from 'react-router-dom'
 
 export function Header() {
     return (
@@ -44,10 +45,10 @@ export function Header() {
             <div className="header__main">
                 <div className="container">
                     <div className="header__content">
-                        <a className="logo" href="#">
+                        <Link className="logo" to="/">
                             <img className="logo-img" src="/images/logo.svg" alt="Logotip" />
-                        </a>
-                        <button className="header__content-btn btn">Каталог</button>
+                        </Link>
+                        <Link className="header__content-btn btn" to="/catalog">Каталог</Link>
                         <form className="form" action="#">
                             <input className="input-search" type="search" placeholder="Поиск" />
                             <button className="input-search__btn"></button>
@@ -55,22 +56,22 @@ export function Header() {
                         <div className="header__user">
                             <ul className="header__user-nav">
                                 <li className="header__user-items">
-                                    <a className="header__user-link" href="#">
+                                    <Link className="header__user-link" to="/user">
                                         <img className="header__userimg" src="/images/icons/user.svg" alt="User" />
                                         <span>Профиль</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="header__user-items">
-                                    <a className="header__user-link" href="#">
+                                    <Link className="header__user-link" to="/order">
                                         <img className="header__userimg" src="/images/icons/order.svg" alt="Order" />
                                         <span>Заказы</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="header__user-items">
-                                    <a className="header__user-link" href="#">
+                                    <Link className="header__user-link" to="/cart">
                                         <img className="header__userimg" src="/images/icons/cart.svg" alt="Cart" />
                                         <span>Корзина</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

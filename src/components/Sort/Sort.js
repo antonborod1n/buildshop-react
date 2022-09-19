@@ -11,17 +11,6 @@ export function Sort() {
         setActive(index);
     }
 
-    const addText = (value) => {
-        const newArr = [...arrSort, value];
-        setArrSort(newArr);
-    }
-
-    const foo = (e) => {
-        console.log(e.target.value);
-
-        setValue(e.target.value)
-    }
-
     return (
         <div className="catalog__filter">Сортировка по:
             {
@@ -31,8 +20,6 @@ export function Sort() {
                     )
                 })
             }
-
-            <input type="text" onChange={foo} value={value} />
         </div>
     )
 }

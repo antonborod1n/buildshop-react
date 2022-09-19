@@ -1,0 +1,64 @@
+.favorite-product {
+    padding-bottom: 80px;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 278px;
+        min-height: 416px;
+        border: 1px solid #E8E9EA;
+
+        &--active {
+            background-color: rgb(156, 152, 152);
+        }
+    }
+
+    &__box {
+        flex-grow: 1;
+        border-top: 1px solid #E8E9EA;
+        padding: 16px;
+    }
+
+    &__title {
+        /* @extend %manrope-500; */
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #2F323A;
+    }
+
+    &__price {
+        /* @extend %manrope-700; */
+        font-size: 20px;
+        line-height: 140%;
+        color: #171B24;
+    }
+
+    &__btn {
+        /* @extend %btn; */
+        margin: 0 16px 16px 16px;
+    }
+}
+
+.btn-count {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FBE303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.favorite-product__control {
+    display: flex;
+    margin-bottom: 20px;
+}

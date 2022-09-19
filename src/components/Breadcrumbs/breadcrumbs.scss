@@ -1,0 +1,18 @@
+.breadcrumbs {
+    padding: 40px 0 20px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item+.breadcrumbs__item {
+    margin-left: 20px;
+}
+
+.breadcrumbs__link {
+    font-size: 16px;
+    line-height: 150%;
+    color: #454950;
+}
