@@ -87,9 +87,7 @@ export function Header() {
                             </a>
                         </li>
                         <li className="menu__items">
-                            <a className="menu__link" href="#">
-                                Строительные материалы
-                            </a>
+                            <Link className="menu__link" to="/category">Сухие смеси</Link>
                         </li>
                         <li className="menu__items">
                             <a className="menu__link" href="#">

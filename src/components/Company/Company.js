@@ -10,16 +10,14 @@ export function Company() {
     }
 
     return (
-        <div className='container'>
-            <div className="company__inner">
-                {
-                    arrCompanyName.map((item, index) => {
-                        return (
-                            <button onClick={() => onClickBtn(index)} key={index} className={activeCategory == index ? "company__item-btn company__item-btn--active" : "company__item-btn"}>{item}</button>
-                        )
-                    })
-                }
-            </div>
+        <div className="company__inner">
+            {
+                arrCompanyName.map((item, index) => {
+                    return (
+                        <button onClick={() => onClickBtn(index)} key={index} className={activeCategory == index ? "company__item-btn company__item-btn--active" : "company__item-btn"}>{item}</button>
+                    )
+                })
+            }
         </div>
     )
 }

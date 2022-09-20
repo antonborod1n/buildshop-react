@@ -6,10 +6,6 @@ export function Favorite(props) {
     const [productCounnt, setProductCounnt] = useState(0);
     const [activeProduct, setActiveProduct] = useState(0);
 
-    /*  const onClickProduct = (go) => {
-         setActiveProduct(index);
-     } */
-
     return (
         !!product && (
             <section className="favorite-product" >
@@ -17,7 +13,7 @@ export function Favorite(props) {
                     <h2 className="title">Популярные товары</h2>
                     <div className="favorite-product__inner">
                         {
-                            product.map((item, index) => {
+                            product.map((item) => {
                                 return (
                                     <div className={activeProduct ? "favorite-product__item--active" : "favorite-product__item"} key={item.id}>
                                         <img className="favorite-product__img" src={item.urlImg} alt="Product" />
@@ -30,7 +26,7 @@ export function Favorite(props) {
                                             <span className="btn-count" onClick={() => setProductCounnt(productCounnt - 1)}>-</span>
                                             <span className="btn-count">{productCounnt}</span>
                                         </div>
-                                        <button className="favorite-product__btn btn" /* onClick={() => onClickProduct(index)} */>В корзину</button>
+                                        <button className="favorite-product__btn btn">В корзину</button>
                                     </div>
                                 )
                             })

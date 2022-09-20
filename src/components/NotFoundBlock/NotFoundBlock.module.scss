@@ -1,12 +1,27 @@
 .inner {
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 20px 0;
+    padding: 90px 0;
+    margin: 0 auto;
+}
+
+.inner__top {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #171B24;
+    margin-bottom: 30px;
 }
 
 .notfound__title {
     padding: 20px 0;
+    margin-bottom: 30px;
 }
 
-.descr {
+.notfound__descr {
     font-size: 20px;
+    margin-bottom: 30px;
 }

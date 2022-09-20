@@ -1,4 +1,5 @@
 import './footer.scss';
+import { Link } from 'react-router-dom'
 
 export function Footer() {
     return (
@@ -6,9 +7,9 @@ export function Footer() {
             <div className="container">
                 <div className="footer__inner">
                     <div className="footer__box">
-                        <a className="logo" href="#">
+                        <Link className="logo" to="/">
                             <img className="logo-img" src="/images/logo-footer.svg" alt="Logotip" />
-                        </a>
+                        </Link>
                         <a className="footer__email footer__link" href="mailto:info@stroykastore.ru">info@stroykastore.ru</a>
                         <span className="footer__address footer__link">Москва, ул. Камушкина 10</span>
                     </div>

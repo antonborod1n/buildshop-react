@@ -13,13 +13,12 @@ export function Popular(props) {
                     </div>
                     <div className="popular__content">
                         {
-                            category.map((item, index) => {
+                            category.map((item) => {
                                 return (
                                     <a className="popular__item" href="#" key={item.id}>
                                         <p className="popular__text">{item.title}</p>
                                         <img className="popular__img" src={item.urlImg} alt="Category" />
                                     </a>
-
                                 )
                             })
                         }
