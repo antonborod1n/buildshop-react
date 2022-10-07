@@ -32,9 +32,9 @@ export function Header() {
                                     </a>
                                 </li>
                                 <li className="header__top-items">
-                                    <a className="header__top-item-link" href="#">
+                                    <Link className="header__top-item-link" to="/contact">
                                         Контакты
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>
@@ -78,6 +78,7 @@ export function Header() {
                     </div>
                 </div>
             </div>
+
             <div className="header__menu">
                 <div className="container">
                     <ul className="menu">

@@ -30,16 +30,16 @@ export function Footer() {
                             </a>
                         </li>
                         <li className="footer__item">
-                            <a className="footer__link" href="#">
+                            <Link className="footer__link" to="/cart">
                                 Корзина
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <ul className="footer__list">
                         <li className="footer__item">
-                            <a className="footer__link" href="#">
+                            <Link className="footer__link" to="/catalog">
                                 Каталог
-                            </a>
+                            </Link>
                         </li>
                         <li className="footer__item">
                             <a className="footer__link" href="#">
@@ -47,9 +47,9 @@ export function Footer() {
                             </a>
                         </li>
                         <li className="footer__item">
-                            <a className="footer__link" href="#">
+                            <Link className="footer__link" to="/contact">
                                 Контакты
-                            </a>
+                            </Link>
                         </li>
                         <li className="footer__item">
                             <a className="footer__link" href="#">

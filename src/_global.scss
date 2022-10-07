@@ -318,3 +318,34 @@ ul.cart__order-list {
         margin: 12px 0 16px;
     }
 }
+
+.contact {
+    &__top {
+        margin-bottom: 40px;
+    }
+
+    &__map {
+        margin-bottom: 80px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #2F323A;
+    }
+
+    &__item {
+        margin-bottom: 5px;
+    }
+
+    &__title {
+        font-size: 34px;
+        line-height: 130%;
+        color: #2F323A;
+        margin-bottom: 40px;
+    }
+}
