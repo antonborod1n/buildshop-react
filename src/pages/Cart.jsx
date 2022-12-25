@@ -3,8 +3,8 @@ import { Breadcrumbs } from "../components/Breadcrumbs"
 
 export const Cart = () => {
     const [productCounnt, setProductCounnt] = useState(0);
-    return (
 
+    return (
         <section className="cart">
             <div className="cart__top" style={{ backgroundImage: "url(../images/cart-bg.jpg)" }}>
                 <div className="cart__top-box">

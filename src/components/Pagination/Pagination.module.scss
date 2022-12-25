@@ -1,0 +1,32 @@
+.pagination {
+    padding: 20px 0;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        border: 1px solid #E8E9EA;
+        margin-right: 10px;
+        transition: all .3s;
+
+        :hover {
+            background-color: #FBE303;
+            transition: all .3s;
+        }
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 52px;
+        height: 52px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 136%;
+        color: #2F323A;
+        cursor: pointer;
+    }
+}

@@ -7,15 +7,21 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 export const Category = () => {
-    const urlFavoriteProduct = 'https://631b31adfae3df4dcff78ae8.mockapi.io/product';
     const [favoriteProduct, setFavoriteProduct] = useState(null);
+    const [sort, setSort] = useState(0);
+
+    console.log(sort);
 
     useEffect(() => {
-        axios.get(urlFavoriteProduct)
+        axios.get(`https://631b31adfae3df4dcff78ae8.mockapi.io/product?sortBy=${sort}&order=asc`)
             .then(
                 res => setFavoriteProduct(res.data)
             )
-    }, []);
+    }, [sort]);
+
+    function onChangeActive(index) {
+        setSort(index);
+    }
 
     return (
         <section className="category">
@@ -26,7 +32,7 @@ export const Category = () => {
 
                 </div>
                 <div className="category__content">
-                    <Sort />
+                    <Sort valueSort={sort} onChangeSort={(i) => setSort(i)} />
                     <div className="category__product">
                         <Product listProduct={favoriteProduct} />
                     </div>

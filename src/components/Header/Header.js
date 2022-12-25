@@ -1,5 +1,6 @@
 import './header.scss'
 import { Link } from 'react-router-dom'
+import { Search } from '../Search'
 
 export function Header() {
     return (
@@ -48,11 +49,11 @@ export function Header() {
                         <Link className="logo" to="/">
                             <img className="logo-img" src="/images/logo.svg" alt="Logotip" />
                         </Link>
-                        <Link className="header__content-btn btn" to="/catalog">Каталог</Link>
-                        <form className="form" action="#">
-                            <input className="input-search" type="search" placeholder="Поиск" />
-                            <button className="input-search__btn"></button>
-                        </form>
+                        <Link className="header__content-btn btn" to="/catalog">
+                            <img className='header__content-btn-img' src="/images/icons/btn-line.svg" alt="Каталог" />
+                            Каталог
+                        </Link>
+                        <Search />
                         <div className="header__user">
                             <ul className="header__user-nav">
                                 <li className="header__user-items">

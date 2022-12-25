@@ -11,6 +11,7 @@ import { NotFound } from './pages/NotFound';
 import { Category } from './pages/Category';
 import { Catalog } from './pages/Catalog';
 import { Contact } from './pages/Contact';
+import { Order } from './pages/Order';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/catalog' element={<Catalog />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/order' element={<Order />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </div>

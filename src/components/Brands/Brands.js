@@ -26,18 +26,16 @@ export function Brands() {
 
     return (
         <section className="brands">
-            <div className="container">
-                <div className="brands__top">
-                    <h2 className="title">Бренды</h2>
-                    <a className="top-btn" href="#">Все бренды</a>
-                </div>
-                <div className="brands__content">
-                    {
-                        brendsImg.map(item => {
-                            return <img className="brands__img img__scale" src={item.brandsImg} alt="Бренд" onClick={() => onDeleteImg(item.id)} />
-                        })
-                    }
-                </div>
+            <div className="brands__top">
+                <h2 className="title">Бренды</h2>
+                <a className="top-btn" href="#">Все бренды</a>
+            </div>
+            <div className="brands__content">
+                {
+                    brendsImg.map(item => {
+                        return <img className="brands__img img__scale" src={item.brandsImg} alt="Бренд" onClick={() => onDeleteImg(item.id)} />
+                    })
+                }
             </div>
         </section>
     )
