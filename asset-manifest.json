@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/buildshop-react/static/css/main.b1073279.css",
+    "main.js": "/buildshop-react/static/js/main.bb1a5548.js",
+    "static/media/Inter-Bold.woff": "/buildshop-react/static/media/Inter-Bold.8f8c5ea1d3a580b04e28.woff",
+    "static/media/Inter-SemiBold.woff": "/buildshop-react/static/media/Inter-SemiBold.8709b7f1f6fabaaa7896.woff",
+    "static/media/Inter-Medium.woff": "/buildshop-react/static/media/Inter-Medium.2faa383bb66313c2a072.woff",
+    "static/media/Inter-Regular.woff": "/buildshop-react/static/media/Inter-Regular.f8c4b51c613b8c0f88ea.woff",
+    "static/media/Inter-SemiBold.woff2": "/buildshop-react/static/media/Inter-SemiBold.ab564c2dbbe039da8cb5.woff2",
+    "static/media/Inter-Bold.woff2": "/buildshop-react/static/media/Inter-Bold.eccbcfa9bc0203198ac6.woff2",
+    "static/media/Inter-Medium.woff2": "/buildshop-react/static/media/Inter-Medium.8a50feca5194fae5cc45.woff2",
+    "static/media/Inter-Regular.woff2": "/buildshop-react/static/media/Inter-Regular.6fcad65b7a8f7ffabb8e.woff2",
+    "static/media/Manrope-Bold.woff": "/buildshop-react/static/media/Manrope-Bold.0f035061db7e2a4c2c3d.woff",
+    "static/media/Manrope-SemiBold.woff": "/buildshop-react/static/media/Manrope-SemiBold.a716e35a52599b8145e4.woff",
+    "static/media/Manrope-Regular.woff": "/buildshop-react/static/media/Manrope-Regular.d1384c3221d6bf5c6f29.woff",
+    "static/media/Manrope-Medium.woff": "/buildshop-react/static/media/Manrope-Medium.06d5d5a8a3fb137f2ca8.woff",
+    "static/media/Manrope-Bold.woff2": "/buildshop-react/static/media/Manrope-Bold.b7344814bf982f6838e1.woff2",
+    "static/media/Manrope-SemiBold.woff2": "/buildshop-react/static/media/Manrope-SemiBold.45721b3429a1fa90f750.woff2",
+    "static/media/Manrope-Regular.woff2": "/buildshop-react/static/media/Manrope-Regular.15e344c414d52dd672ef.woff2",
+    "static/media/Manrope-Medium.woff2": "/buildshop-react/static/media/Manrope-Medium.c3c8fbc30da8cfe4e910.woff2",
+    "index.html": "/buildshop-react/index.html",
+    "static/media/arrows-right.svg": "/buildshop-react/static/media/arrows-right.00f3ec10043dc56d520a.svg",
+    "main.b1073279.css.map": "/buildshop-react/static/css/main.b1073279.css.map",
+    "main.bb1a5548.js.map": "/buildshop-react/static/js/main.bb1a5548.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1073279.css",
+    "static/js/main.bb1a5548.js"
+  ]
+}
